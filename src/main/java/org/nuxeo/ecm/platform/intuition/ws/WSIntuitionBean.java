@@ -45,5 +45,4 @@ public class WSIntuitionBean extends WSIndexingGatewayBean implements
 
     private static final long serialVersionUID = 4696352633818100451L;
 
-
 }

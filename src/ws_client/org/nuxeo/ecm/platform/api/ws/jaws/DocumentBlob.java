@@ -33,7 +33,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Gets the blob value for this DocumentBlob.
-     * 
+     *
      * @return blob
      */
     public byte[] getBlob() {
@@ -43,7 +43,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Sets the blob value for this DocumentBlob.
-     * 
+     *
      * @param blob
      */
     public void setBlob(byte[] blob) {
@@ -53,7 +53,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Gets the encoding value for this DocumentBlob.
-     * 
+     *
      * @return encoding
      */
     public java.lang.String getEncoding() {
@@ -63,7 +63,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Sets the encoding value for this DocumentBlob.
-     * 
+     *
      * @param encoding
      */
     public void setEncoding(java.lang.String encoding) {
@@ -73,7 +73,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Gets the mimetype value for this DocumentBlob.
-     * 
+     *
      * @return mimetype
      */
     public java.lang.String getMimetype() {
@@ -83,7 +83,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Sets the mimetype value for this DocumentBlob.
-     * 
+     *
      * @param mimetype
      */
     public void setMimetype(java.lang.String mimetype) {
@@ -93,7 +93,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Gets the name value for this DocumentBlob.
-     * 
+     *
      * @return name
      */
     public java.lang.String getName() {
@@ -103,7 +103,7 @@ public class DocumentBlob  implements java.io.Serializable {
 
     /**
      * Sets the name value for this DocumentBlob.
-     * 
+     *
      * @param name
      */
     public void setName(java.lang.String name) {
@@ -121,17 +121,17 @@ public class DocumentBlob  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.blob==null && other.getBlob()==null) || 
+        _equals = true &&
+            ((this.blob==null && other.getBlob()==null) ||
              (this.blob!=null &&
               java.util.Arrays.equals(this.blob, other.getBlob()))) &&
-            ((this.encoding==null && other.getEncoding()==null) || 
+            ((this.encoding==null && other.getEncoding()==null) ||
              (this.encoding!=null &&
               this.encoding.equals(other.getEncoding()))) &&
-            ((this.mimetype==null && other.getMimetype()==null) || 
+            ((this.mimetype==null && other.getMimetype()==null) ||
              (this.mimetype!=null &&
               this.mimetype.equals(other.getMimetype()))) &&
-            ((this.name==null && other.getName()==null) || 
+            ((this.name==null && other.getName()==null) ||
              (this.name!=null &&
               this.name.equals(other.getName())));
         __equalsCalc = null;
@@ -212,10 +212,10 @@ public class DocumentBlob  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
+           java.lang.String mechType,
+           java.lang.Class _javaType,
            javax.xml.namespace.QName _xmlType) {
-        return 
+        return
           new  org.apache.axis.encoding.ser.BeanSerializer(
             _javaType, _xmlType, typeDesc);
     }
@@ -224,10 +224,10 @@ public class DocumentBlob  implements java.io.Serializable {
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
+           java.lang.String mechType,
+           java.lang.Class _javaType,
            javax.xml.namespace.QName _xmlType) {
-        return 
+        return
           new  org.apache.axis.encoding.ser.BeanDeserializer(
             _javaType, _xmlType, typeDesc);
     }
