@@ -41,7 +41,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[0] = oper;
@@ -57,7 +57,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[1] = oper;
@@ -78,7 +78,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[2] = oper;
@@ -99,7 +99,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[3] = oper;
@@ -120,7 +120,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[4] = oper;
@@ -141,7 +141,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[5] = oper;
@@ -162,7 +162,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[6] = oper;
@@ -183,7 +183,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[7] = oper;
@@ -204,7 +204,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[8] = oper;
@@ -225,7 +225,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[9] = oper;
@@ -251,7 +251,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[10] = oper;
@@ -269,7 +269,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[11] = oper;
@@ -287,7 +287,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[12] = oper;
@@ -308,7 +308,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[13] = oper;
@@ -329,7 +329,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[14] = oper;
@@ -350,7 +350,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[15] = oper;
@@ -374,7 +374,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[16] = oper;
@@ -396,7 +396,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[17] = oper;
@@ -417,7 +417,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "AuditException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.AuditException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "AuditException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "AuditException"),
                       true
                      ));
         _operations[18] = oper;
@@ -439,7 +439,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[19] = oper;
@@ -472,7 +472,7 @@ public class WSIntuitionInterfaceBindingStub extends org.apache.axis.client.Stub
         oper.addFault(new org.apache.axis.description.FaultDesc(
                       new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       "org.nuxeo.ecm.platform.intuition.ws.jaws.ClientException",
-                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"), 
+                      new javax.xml.namespace.QName("http://ws.intuition.platform.ecm.nuxeo.org/jaws", "ClientException"),
                       true
                      ));
         _operations[20] = oper;

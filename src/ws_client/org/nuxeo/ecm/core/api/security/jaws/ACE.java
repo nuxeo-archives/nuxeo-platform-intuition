@@ -33,7 +33,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Gets the denied value for this ACE.
-     * 
+     *
      * @return denied
      */
     public boolean isDenied() {
@@ -43,7 +43,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Sets the denied value for this ACE.
-     * 
+     *
      * @param denied
      */
     public void setDenied(boolean denied) {
@@ -53,7 +53,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Gets the granted value for this ACE.
-     * 
+     *
      * @return granted
      */
     public boolean isGranted() {
@@ -63,7 +63,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Sets the granted value for this ACE.
-     * 
+     *
      * @param granted
      */
     public void setGranted(boolean granted) {
@@ -73,7 +73,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Gets the permission value for this ACE.
-     * 
+     *
      * @return permission
      */
     public java.lang.String getPermission() {
@@ -83,7 +83,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Sets the permission value for this ACE.
-     * 
+     *
      * @param permission
      */
     public void setPermission(java.lang.String permission) {
@@ -93,7 +93,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Gets the username value for this ACE.
-     * 
+     *
      * @return username
      */
     public java.lang.String getUsername() {
@@ -103,7 +103,7 @@ public class ACE  implements java.io.Serializable {
 
     /**
      * Sets the username value for this ACE.
-     * 
+     *
      * @param username
      */
     public void setUsername(java.lang.String username) {
@@ -121,13 +121,13 @@ public class ACE  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
+        _equals = true &&
             this.denied == other.isDenied() &&
             this.granted == other.isGranted() &&
-            ((this.permission==null && other.getPermission()==null) || 
+            ((this.permission==null && other.getPermission()==null) ||
              (this.permission!=null &&
               this.permission.equals(other.getPermission()))) &&
-            ((this.username==null && other.getUsername()==null) || 
+            ((this.username==null && other.getUsername()==null) ||
              (this.username!=null &&
               this.username.equals(other.getUsername())));
         __equalsCalc = null;
@@ -196,10 +196,10 @@ public class ACE  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
+           java.lang.String mechType,
+           java.lang.Class _javaType,
            javax.xml.namespace.QName _xmlType) {
-        return 
+        return
           new  org.apache.axis.encoding.ser.BeanSerializer(
             _javaType, _xmlType, typeDesc);
     }
@@ -208,10 +208,10 @@ public class ACE  implements java.io.Serializable {
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
+           java.lang.String mechType,
+           java.lang.Class _javaType,
            javax.xml.namespace.QName _xmlType) {
-        return 
+        return
           new  org.apache.axis.encoding.ser.BeanDeserializer(
             _javaType, _xmlType, typeDesc);
     }
