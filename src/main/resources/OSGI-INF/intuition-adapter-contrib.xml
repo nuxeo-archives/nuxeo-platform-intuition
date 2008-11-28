@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component name="org.nuxeo.ecm.platform.intuition.adapter.defaultAdapters">
+<component
+  name="org.nuxeo.ecm.platform.intuition.adapter.defaultAdapters">
 
   <documentation>
     Default ACL filtering adapter to make Intuition ACL handling
-    simulate the Nuxeo permission blocking logics.
+    simulate the Nuxeo permission blocking logics and new ecm:pathTitle
+    property to display user friendly repository tree with title of
+    workspace and folders.
   </documentation>
 
-  <extension target="org.nuxeo.ecm.platform.indexing.gateway.adapter.IndexingAdapterService"
+  <extension
+    target="org.nuxeo.ecm.platform.indexing.gateway.adapter.IndexingAdapterService"
     point="adapters">
 
-    <adapter class="org.nuxeo.ecm.platform.intuition.adapter.IntuitionACLIndexingAdapter"
-      order="10" enabled="true"/>
+    <adapter
+      class="org.nuxeo.ecm.platform.intuition.adapter.IntuitionACLIndexingAdapter"
+      order="10" enabled="true" />
+
+    <adapter
+      class="org.nuxeo.ecm.platform.intuition.adapter.IntuitionRepositoryPathTitleAdapter"
+      order="20" enabled="true" />
 
   </extension>
 
