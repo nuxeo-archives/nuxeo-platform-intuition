@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
-    <groupId>org.nuxeo.ecm.platform</groupId>
-    <artifactId>nuxeo-features-parent</artifactId>
-    <version>5.4.2-SNAPSHOT</version>
+    <groupId>org.nuxeo</groupId>
+    <artifactId>nuxeo-addons-parent</artifactId>
+    <version>5.6-SNAPSHOT</version>
   </parent>
 
   <artifactId>nuxeo-platform-intuition</artifactId>
@@ -19,11 +19,9 @@
   </description>
 
   <dependencies>
-
     <dependency>
       <groupId>org.nuxeo.ecm.platform</groupId>
       <artifactId>nuxeo-platform-indexing-gateway</artifactId>
-      <version>${pom.version}</version>
     </dependency>
 
     <dependency>
@@ -31,7 +29,6 @@
       <artifactId>jsr181</artifactId>
       <scope>provided</scope>
     </dependency>
-
     <dependency>
       <groupId>javax.ejb</groupId>
       <artifactId>ejb</artifactId>
@@ -62,10 +59,15 @@
         <enabled>false</enabled>
       </releases>
       <snapshots>
-        <updatePolicy>always</updatePolicy>
         <enabled>true</enabled>
       </snapshots>
     </repository>
   </repositories>
+
+  <scm>
+    <connection>scm:git:git://github.com/nuxeo/nuxeo-platform-intuition.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo/nuxeo-platform-intuition.git</developerConnection>
+    <url>https://github.com/nuxeo/nuxeo-platform-intuition</url>
+  </scm>
 
 </project>
