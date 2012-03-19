@@ -24,7 +24,6 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-import org.jboss.annotation.ejb.SerializedConcurrentAccess;
 import org.nuxeo.ecm.platform.indexing.gateway.ws.WSIndexingGatewayBean;
 import org.nuxeo.ecm.platform.intuition.ws.api.WSIntuition;
 
@@ -37,7 +36,6 @@ import org.nuxeo.ecm.platform.intuition.ws.api.WSIntuition;
  *
  */
 @Stateless
-@SerializedConcurrentAccess
 @WebService(name = "WSIntuitionInterface", serviceName = "WSIntuitionService")
 @SOAPBinding(style = Style.DOCUMENT)
 public class WSIntuitionBean extends WSIndexingGatewayBean implements
