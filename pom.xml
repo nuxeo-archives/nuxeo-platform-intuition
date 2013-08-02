@@ -26,11 +26,6 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.jws</groupId>
-      <artifactId>jsr181</artifactId>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>javax.ejb</groupId>
       <artifactId>ejb</artifactId>
       <scope>provided</scope>
