@@ -25,7 +25,6 @@ import org.nuxeo.ecm.platform.indexing.gateway.ws.api.WSIndexingGateway;
  * Intuition Web Service interface.
  *
  * @author <a href="mailto:ja@nuxeo.com">Julien Anguenot</a>
- *
  */
 public interface WSIntuition extends WSIndexingGateway {
 

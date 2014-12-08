@@ -22,12 +22,10 @@ package org.nuxeo.ecm.platform.intuition.adapter;
 import org.nuxeo.ecm.platform.indexing.gateway.adapter.SimpleACLIndexingAdapter;
 
 /**
- * Sinequa IndexingAdapter that filters blocked local ACEs with the default
- * blocking strategy in Nuxeo: "Deny Everything to Everyone" and only provide
- * intuition with permissions that are related to read access.
+ * Sinequa IndexingAdapter that filters blocked local ACEs with the default blocking strategy in Nuxeo:
+ * "Deny Everything to Everyone" and only provide intuition with permissions that are related to read access.
  *
  * @author Olivier Grisel <ogrisel@nuxeo.com>
- *
  */
 public class IntuitionACLIndexingAdapter extends SimpleACLIndexingAdapter {
 

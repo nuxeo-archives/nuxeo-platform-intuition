@@ -33,13 +33,11 @@ import org.nuxeo.ecm.platform.intuition.ws.api.WSIntuition;
  * @author <a href="mailto:ja@nuxeo.com">Julien Anguenot</a>
  * @author Olivier Grisel <ogrisel@nuxeo.com>
  * @author Thierry Delprat <td@nuxeo.com>
- *
  */
 @Stateless
 @WebService(name = "WSIntuitionInterface", serviceName = "WSIntuitionService")
 @SOAPBinding(style = Style.DOCUMENT)
-public class WSIntuitionBean extends WSIndexingGatewayBean implements
-        WSIntuition {
+public class WSIntuitionBean extends WSIndexingGatewayBean implements WSIntuition {
 
     private static final long serialVersionUID = 4696352633818100451L;
 

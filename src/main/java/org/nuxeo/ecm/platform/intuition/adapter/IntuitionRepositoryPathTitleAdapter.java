@@ -22,9 +22,8 @@ package org.nuxeo.ecm.platform.intuition.adapter;
 import org.nuxeo.ecm.platform.indexing.gateway.adapter.RepositoryPathTitleAdapter;
 
 /**
- * Adapter to build a new property ecm:pathTitle holding the physical path in
- * the repository with human readable titles instead of technical local path ids
- * found in the default ecm:path property.
+ * Adapter to build a new property ecm:pathTitle holding the physical path in the repository with human readable titles
+ * instead of technical local path ids found in the default ecm:path property.
  *
  * @author Olivier Grisel <ogrisel@nuxeo.com>
  */
